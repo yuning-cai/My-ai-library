@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# PyCharm / IDE
+.idea/
+.vscode/
+
+# Local Storage (用户数据)
+storage/books/*
+storage/covers/*
+storage/library.db
+storage/sample_test.pdf
+!storage/books/.gitkeep
+!storage/covers/.gitkeep
